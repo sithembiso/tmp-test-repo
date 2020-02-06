@@ -2,7 +2,7 @@ import hashlib
 
 # Admin login
 username = 'admin'
-password = 'P@ssw0rd'
+# password = 'P@ssw0rd'
 
 # System settings
 secret = hashlib.sha256()
