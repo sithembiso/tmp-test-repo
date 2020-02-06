@@ -18,6 +18,6 @@ for t in testmodules:
 
 result = unittest.TextTestRunner().run(suite)
 if result.wasSuccessful():
-  exit(0)
+  exit(1)
 else:
   exit(1)
